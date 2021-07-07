@@ -1,0 +1,20 @@
+{
+    "head_1":{
+        "field1": var1,
+        "col1":{
+            "doc1":{
+                "field2": var2,
+                "field3": var3,
+            }
+        }
+    }, 
+    "head_2": {
+        ...
+    }, 
+
+    ...
+
+
+
+
+}

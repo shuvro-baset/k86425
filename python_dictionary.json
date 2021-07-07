@@ -1,0 +1,113 @@
+{
+    "head_1": {
+        "field1_name1": "var1_1",
+        "col1_name1": {
+            "doc1_name1": {
+                "field2_name1": "var2_1",
+                "field3_name1": "var3_1"
+            }
+        }
+    },
+    "head_2": {
+        "field1_name2": "var1_2",
+        "col1_name2": {
+            "doc1_name2": {
+                "field2_name2": "var2_2",
+                "field3_name2": "var3_2"
+            }
+        }
+    },
+    "head_3": {
+        "field1_name3": "var1_3",
+        "col1_name3": {
+            "doc1_name3": {
+                "field2_name3": "var2_3",
+                "field3_name3": "var3_3"
+            }
+        }
+    },
+    "head_4": {
+        "NaN": {
+            "NaN": {
+                "NaN": "var3_4"
+            }
+        }
+    },
+    "head_5": {
+        "NaN": {
+            "NaN": {
+                "NaN": "var3_5"
+            }
+        }
+    },
+    "head_6": {
+        "NaN": {
+            "NaN": {
+                "NaN": "var3_6"
+            }
+        }
+    },
+    "head_7": {
+        "NaN": {
+            "NaN": {
+                "NaN": "var3_7"
+            }
+        }
+    },
+    "head_8": {
+        "NaN": {
+            "NaN": {
+                "NaN": "var3_8"
+            }
+        }
+    },
+    "head_9": {
+        "NaN": {
+            "NaN": {
+                "NaN": "var3_9"
+            }
+        }
+    },
+    "head_10": {
+        "NaN": {
+            "NaN": {
+                "NaN": "var3_10"
+            }
+        }
+    },
+    "head_11": {
+        "NaN": {
+            "NaN": {
+                "NaN": "var3_11"
+            }
+        }
+    },
+    "head_12": {
+        "NaN": {
+            "NaN": {
+                "NaN": "var3_12"
+            }
+        }
+    },
+    "head_13": {
+        "NaN": {
+            "NaN": {
+                "NaN": "var3_13"
+            }
+        }
+    },
+    "head_14": {
+        "NaN": {
+            "NaN": {
+                "NaN": "var3_14"
+            }
+        }
+    },
+    "head_15": {
+        "NaN": {
+            "NaN": {
+                "NaN": "var3_15"
+            }
+        }
+    }
+}
