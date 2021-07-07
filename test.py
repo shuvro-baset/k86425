@@ -1,14 +1,10 @@
 import pandas as pd
 import json
-df1 = pd.read_excel('input_example.xlsx', sheet_name='constant')
-df2 = pd.read_excel('input_example.xlsx', sheet_name='variable')
+df1 = pd.read_excel('input_example.xlsx', sheet_name='constant') # if you need to run for another excel sheet please rename here. if your sheet name is different please also rename it
+df2 = pd.read_excel('input_example.xlsx', sheet_name='variable') # if you need to run for another excel sheet please rename here. if your sheet name is different please also rename it
 df3 = pd.concat([df1, df2],axis=1)
-# print(df3)
 
 dic_data = {}
-
-# for d in df3.iterrows():
-#     print(d['head'])
 
 for index, row in df3.iterrows():
     head = row['head']
@@ -30,8 +26,6 @@ for index, row in df3.iterrows():
         }
     }}
     dic_data.update(dem_dic_data)
-    # print(dem_dic_data)
-print(dic_data)
 
-with open('python_dictionary.json','a') as file:
+with open('python_dictionary.json','a') as file: # when you need another json for another excel sheet, please rename here.
     file.write(json.dumps(dic_data,indent=4))
